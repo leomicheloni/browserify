@@ -2,8 +2,10 @@
 Just for learing how to use browserify.
 Browserify will allows you to use node packages for building webpages, just add dependencies to package.json and call it from your js files:
 
-``var $ = require("jquery");``
-``$("element").on("click", function() { alert("hello");});``
+````javascript
+var $ = require("jquery");
+$("element").on("click", function() { alert("hello");});
+````
 
 ##Usage
 
